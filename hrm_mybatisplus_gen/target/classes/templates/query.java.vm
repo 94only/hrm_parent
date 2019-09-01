@@ -1,0 +1,9 @@
+package cn.wangningbo.hrm.query;
+
+
+/**
+ * @author ${author}
+ * @since ${date}
+ */
+public class ${table.entityName}Query extends BaseQuery {
+}

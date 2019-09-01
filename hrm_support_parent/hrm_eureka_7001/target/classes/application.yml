@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hrm-eureka
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false # 是否要注册到eureka 自己本身就是eureka，无需注册
+    fetchRegistry: false  # 表示是否从Eureka Server获取注册信息，自己是eureka服务端，无需获取注册信息
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # 单机配置 效果同 http://localhost:7001/eureka
