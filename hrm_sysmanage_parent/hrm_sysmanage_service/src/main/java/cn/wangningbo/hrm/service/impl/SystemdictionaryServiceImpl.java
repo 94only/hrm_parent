@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author wangningbo
- * @since 2019-08-30
+ * @since 2019-09-01
  */
 @Service
 public class SystemdictionaryServiceImpl extends ServiceImpl<SystemdictionaryMapper, Systemdictionary> implements ISystemdictionaryService {
