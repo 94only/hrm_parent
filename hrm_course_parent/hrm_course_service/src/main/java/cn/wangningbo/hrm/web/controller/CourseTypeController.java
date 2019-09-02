@@ -1,6 +1,6 @@
 package
 
-    cn.wangningbo.hrm.web.controller;
+        cn.wangningbo.hrm.web.controller;
 
 import cn.wangningbo.hrm.service.ICourseTypeService;
 import cn.wangningbo.hrm.domain.CourseType;
@@ -18,23 +18,24 @@ import java.util.List;
  * @since 2019-09-01
  */
 @RestController
-@RequestMapping("/courseType" )
+@RequestMapping("/courseType")
 public class CourseTypeController {
     @Autowired
     public ICourseTypeService courseTypeService;
 
     /**
      * 保存和修改公用的
+     *
      * @param courseType 传递的实体
      * @return Ajaxresult转换结果
      */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public AjaxResult save(@RequestBody CourseType courseType) {
         try {
-            if (courseType.getId() != null){
-                    courseTypeService.updateById(courseType);
-            }else{
-                    courseTypeService.insert(courseType);
+            if (courseType.getId() != null) {
+                courseTypeService.updateById(courseType);
+            } else {
+                courseTypeService.insert(courseType);
             }
             return AjaxResult.me();
         } catch (Exception e) {
@@ -44,12 +45,13 @@ public class CourseTypeController {
     }
 
     /**
-    * 删除对象信息
-    * @param id
-    * @return
-    */
+     * 删除对象信息
+     *
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id" ) Long id) {
+    public AjaxResult delete(@PathVariable("id") Long id) {
         try {
             courseTypeService.deleteById(id);
             return AjaxResult.me();
@@ -61,15 +63,16 @@ public class CourseTypeController {
 
     //获取用户
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public CourseType get(@PathVariable("id" ) Long id) {
+    public CourseType get(@PathVariable("id") Long id) {
         return courseTypeService.selectById(id);
     }
 
 
     /**
-    * 查看所有的员工信息
-    * @return
-    */
+     * 查看所有的员工信息
+     *
+     * @return
+     */
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<CourseType> list() {
 
@@ -78,15 +81,13 @@ public class CourseTypeController {
 
 
     /**
-    * 分页查询数据
-    *
-    * @param query 查询对象
-    * @return PageList 分页对象
-    */
+     * 分页查询数据
+     *
+     * @param query 查询对象
+     * @return PageList 分页对象
+     */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     public PageList<CourseType> json(@RequestBody CourseTypeQuery query) {
-        Page<CourseType> page = new Page<CourseType>(query.getPage(), query.getRows());
-        page = courseTypeService.selectPage(page);
-        return new PageList<CourseType>(page.getTotal(), page.getRecords());
+        return courseTypeService.selectPageList(query);
     }
 }

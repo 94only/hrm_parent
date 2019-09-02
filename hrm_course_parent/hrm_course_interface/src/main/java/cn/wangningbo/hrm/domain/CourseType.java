@@ -31,6 +31,7 @@ public class CourseType extends Model<CourseType> {
      * 父ID
      */
     private Long pid;
+    private CourseType parent;
     /**
      * 图标
      */
@@ -84,6 +85,14 @@ public class CourseType extends Model<CourseType> {
 
     public Long getPid() {
         return pid;
+    }
+
+    public CourseType getParent() {
+        return parent;
+    }
+
+    public void setParent(CourseType parent) {
+        this.parent = parent;
     }
 
     public void setPid(Long pid) {

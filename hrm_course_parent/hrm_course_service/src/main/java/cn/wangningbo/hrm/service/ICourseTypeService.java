@@ -1,6 +1,8 @@
 package cn.wangningbo.hrm.service;
 
 import cn.wangningbo.hrm.domain.CourseType;
+import cn.wangningbo.hrm.query.CourseTypeQuery;
+import cn.wangningbo.hrm.util.PageList;
 import com.baomidou.mybatisplus.service.IService;
 
 /**
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface ICourseTypeService extends IService<CourseType> {
 
+    PageList<CourseType> selectPageList(CourseTypeQuery query);
 }

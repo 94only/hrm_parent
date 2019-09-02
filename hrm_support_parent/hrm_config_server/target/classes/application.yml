@@ -6,10 +6,14 @@ spring:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/hpyao/hrm_config.git
-          username: hpyao
-          password: Itsource20180731
+        native:
+          search-locations: C:/Users/NB109/Desktop/config/hrm_config # 配置文件所在目录，classpath（类路径）和（系统文件路径） file两种
+  profiles:
+    active: native #设置为本地启动的方式，而不是通过git
+#        git:
+#          uri: https://github.com/94only/hrm_config.git
+#          username: 94only
+#          password: rootapy06942
 eureka:
   client:
     service-url:
