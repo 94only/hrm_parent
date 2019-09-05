@@ -11,9 +11,9 @@ import com.baomidou.mybatisplus.service.IService;
  * </p>
  *
  * @author wangningbo
- * @since 2019-09-01
+ * @since 2019-09-04
  */
 public interface ICourseTypeService extends IService<CourseType> {
 
-    PageList<CourseType> selectPageList(CourseTypeQuery query);
+    PageList<CourseType> selectListPage(CourseTypeQuery query);
 }

@@ -14,4 +14,16 @@
         <result column="logo" property="logo" />
     </resultMap>
 
+    <!--// 添加中间表void saveTenantMeals(List<Map<String, Long>> mealsMap);-->
+    <insert id="saveTenantMeals" parameterType="arrayList">
+        insert into t_tenant_meal(tenant_id,meal_id) VALUES
+        <foreach collection="list" separator="," item="item">
+            (#{item.tenantId},#{item.mealId})
+        </foreach>
+    </insert>
+
+    <!--// 删除中间表 void removeTenantMeal(Serializable id);-->
+    <delete id="removeTenantMeal" parameterType="long">
+        DELETE  from t_tenant_meal where tenant_id =#{id}
+    </delete>
 </mapper>

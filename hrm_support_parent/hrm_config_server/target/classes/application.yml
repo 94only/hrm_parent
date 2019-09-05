@@ -3,13 +3,13 @@ server:
 spring:
   application:
     name: config-server
+  profiles:
+    active: native #设置为本地启动的方式，而不是通过git
   cloud:
     config:
       server:
         native:
           search-locations: C:/Users/NB109/Desktop/config/hrm_config # 配置文件所在目录，classpath（类路径）和（系统文件路径） file两种
-  profiles:
-    active: native #设置为本地启动的方式，而不是通过git
 #        git:
 #          uri: https://github.com/94only/hrm_config.git
 #          username: 94only

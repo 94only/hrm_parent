@@ -1,16 +1,19 @@
 package cn.wangningbo.hrm.domain;
 
 import com.baomidou.mybatisplus.enums.IdType;
-import java.util.Date;
+
+import java.util.*;
+
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
+
 import java.io.Serializable;
 
 /**
  * <p>
- * 
+ * <p>
  * </p>
  *
  * @author wangningbo
@@ -32,6 +35,25 @@ public class Tenant extends Model<Tenant> {
     private String address;
     private String logo;
 
+    //接收或者做关联查询，数据库中没有的字段
+    @TableField(exist = false)
+    private Employee adminUser;
+    @TableField(exist = false)
+    List<Meal> meals = new ArrayList<>();
+
+    // 处理中间表
+    public List<Map<String,Long>> getMealsMap(){
+        List<Map<String,Long>> maps = new ArrayList<>();
+        if (meals.size()>0){
+            for (Meal meal : meals) {
+                Map<String,Long> map = new HashMap<>();
+                map.put("tenantId",this.getId());
+                map.put("mealId",meal.getId());
+                maps.add(map);
+            }
+        }
+        return maps;
+    }
 
     public Long getTenantType() {
         return tenantType;
@@ -97,6 +119,22 @@ public class Tenant extends Model<Tenant> {
         this.logo = logo;
     }
 
+    public Employee getAdminUser() {
+        return adminUser;
+    }
+
+    public void setAdminUser(Employee adminUser) {
+        this.adminUser = adminUser;
+    }
+
+    public List<Meal> getMeals() {
+        return meals;
+    }
+
+    public void setMeals(List<Meal> meals) {
+        this.meals = meals;
+    }
+
     @Override
     protected Serializable pkVal() {
         return this.id;
@@ -105,14 +143,14 @@ public class Tenant extends Model<Tenant> {
     @Override
     public String toString() {
         return "Tenant{" +
-        ", tenantType=" + tenantType +
-        ", id=" + id +
-        ", companyName=" + companyName +
-        ", companyNum=" + companyNum +
-        ", registerTime=" + registerTime +
-        ", state=" + state +
-        ", address=" + address +
-        ", logo=" + logo +
-        "}";
+                ", tenantType=" + tenantType +
+                ", id=" + id +
+                ", companyName=" + companyName +
+                ", companyNum=" + companyNum +
+                ", registerTime=" + registerTime +
+                ", state=" + state +
+                ", address=" + address +
+                ", logo=" + logo +
+                "}";
     }
 }

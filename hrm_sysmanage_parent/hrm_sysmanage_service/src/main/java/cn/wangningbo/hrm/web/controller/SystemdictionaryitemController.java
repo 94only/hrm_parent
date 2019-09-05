@@ -1,6 +1,6 @@
 package
 
-    cn.wangningbo.hrm.web.controller;
+        cn.wangningbo.hrm.web.controller;
 
 import cn.wangningbo.hrm.service.ISystemdictionaryitemService;
 import cn.wangningbo.hrm.domain.Systemdictionaryitem;
@@ -18,23 +18,24 @@ import java.util.List;
  * @since 2019-09-01
  */
 @RestController
-@RequestMapping("/systemdictionaryitem" )
+@RequestMapping("/systemdictionaryitem")
 public class SystemdictionaryitemController {
     @Autowired
     public ISystemdictionaryitemService systemdictionaryitemService;
 
     /**
      * 保存和修改公用的
+     *
      * @param systemdictionaryitem 传递的实体
      * @return Ajaxresult转换结果
      */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public AjaxResult save(@RequestBody Systemdictionaryitem systemdictionaryitem) {
         try {
-            if (systemdictionaryitem.getId() != null){
-                    systemdictionaryitemService.updateById(systemdictionaryitem);
-            }else{
-                    systemdictionaryitemService.insert(systemdictionaryitem);
+            if (systemdictionaryitem.getId() != null) {
+                systemdictionaryitemService.updateById(systemdictionaryitem);
+            } else {
+                systemdictionaryitemService.insert(systemdictionaryitem);
             }
             return AjaxResult.me();
         } catch (Exception e) {
@@ -44,14 +45,15 @@ public class SystemdictionaryitemController {
     }
 
     /**
-    * 删除对象信息
-    * @param id
-    * @return
-    */
+     * 删除对象信息
+     *
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id" ) Long id) {
+    public AjaxResult delete(@PathVariable("id") Long id) {
         try {
-                systemdictionaryitemService.deleteById(id);
+            systemdictionaryitemService.deleteById(id);
             return AjaxResult.me();
         } catch (Exception e) {
             e.printStackTrace();
@@ -59,17 +61,23 @@ public class SystemdictionaryitemController {
         }
     }
 
-    //获取用户
+    //获取一个（根据id）
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Systemdictionaryitem get(@PathVariable("id" ) Long id) {
+    public Systemdictionaryitem get(@PathVariable("id") Long id) {
         return systemdictionaryitemService.selectById(id);
     }
 
+    //获取一个（根据sn）
+    @RequestMapping(value = "/listSn", method = RequestMethod.GET)
+    public List<Systemdictionaryitem> listByParentSn(String sn) {
+        return systemdictionaryitemService.listByParentSn(sn);
+    }
 
     /**
-    * 查看所有的员工信息
-    * @return
-    */
+     * 查看所有的员工信息
+     *
+     * @return
+     */
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<Systemdictionaryitem> list() {
 
@@ -78,11 +86,11 @@ public class SystemdictionaryitemController {
 
 
     /**
-    * 分页查询数据
-    *
-    * @param query 查询对象
-    * @return PageList 分页对象
-    */
+     * 分页查询数据
+     *
+     * @param query 查询对象
+     * @return PageList 分页对象
+     */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     public PageList<Systemdictionaryitem> json(@RequestBody SystemdictionaryitemQuery query) {
         Page<Systemdictionaryitem> page = new Page<Systemdictionaryitem>(query.getPage(), query.getRows());

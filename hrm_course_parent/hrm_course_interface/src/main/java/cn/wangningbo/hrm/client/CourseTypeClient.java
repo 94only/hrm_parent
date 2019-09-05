@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @author wangningbo
- * @since 2019-09-01
+ * @since 2019-09-04
  */
 @FeignClient(value = "ZUUL-GATEWAY", configuration = FeignClientsConfiguration.class,
         fallbackFactory = CourseTypeClientHystrixFallbackFactory.class)
