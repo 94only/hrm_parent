@@ -86,4 +86,11 @@ public class CourseTypeController {
     public PageList<CourseType> json(@RequestBody CourseTypeQuery query) {
         return courseTypeService.selectListPage(query);
     }
+
+    //类型树
+    @RequestMapping(value = "/treeData",method = RequestMethod.GET)
+    public List<CourseType> treeData(){
+        //数据库中0就是顶级
+        return courseTypeService.queryTypeTree(0L);
+    }
 }

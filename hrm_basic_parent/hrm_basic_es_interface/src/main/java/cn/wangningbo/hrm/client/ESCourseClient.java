@@ -54,4 +54,12 @@ public interface ESCourseClient {
      */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     PageList<ESCourse> json(@RequestBody ESCourseQuery query);
+
+    //批量上线
+    @PostMapping("/online")
+    AjaxResult batchSave(List<ESCourse> esCourseList);
+
+    //批量下线
+    @PostMapping("/offline")
+    void batchDel(List<ESCourse> esCourseList);
 }

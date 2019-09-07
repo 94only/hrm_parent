@@ -71,4 +71,16 @@ public class ESCourseServiceImpl implements IESCourseService {
         Page<ESCourse> page = courseRepository.search(esQuery);
         return new PageList<>(page.getTotalElements(), page.getContent());
     }
+
+    //批量保存
+    @Override
+    public void batchSave(List<ESCourse> esCourseList) {
+        courseRepository.saveAll(esCourseList);
+    }
+
+    //批量删除
+    @Override
+    public void batchDel(List<ESCourse> esCourseList) {
+        courseRepository.deleteAll(esCourseList);
+    }
 }

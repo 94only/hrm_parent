@@ -10,8 +10,12 @@
         <module name="hrm_basic_es_service" />
         <module name="hrm_basic_fastdfs_interface" />
         <module name="hrm_basic_fastdfs_service" />
+        <module name="hrm_basic_redis_client" />
+        <module name="hrm_basic_redis_common" />
+        <module name="hrm_basic_redis_service" />
         <module name="hrm_basic_util" />
         <module name="hrm_config_server" />
+        <module name="hrm_course_client" />
         <module name="hrm_course_interface" />
         <module name="hrm_course_service" />
         <module name="hrm_eureka_7001" />
@@ -27,8 +31,12 @@
       <module name="hrm_basic_fastdfs_interface" target="1.8" />
       <module name="hrm_basic_fastdfs_service" target="1.8" />
       <module name="hrm_basic_parent" target="1.8" />
+      <module name="hrm_basic_redis_client" target="1.8" />
+      <module name="hrm_basic_redis_common" target="1.8" />
+      <module name="hrm_basic_redis_service" target="1.8" />
       <module name="hrm_basic_util" target="1.8" />
       <module name="hrm_config_server" target="1.8" />
+      <module name="hrm_course_client" target="1.8" />
       <module name="hrm_course_interface" target="1.8" />
       <module name="hrm_course_parent" target="1.8" />
       <module name="hrm_course_service" target="1.8" />

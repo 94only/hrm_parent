@@ -83,4 +83,31 @@ public class ESCourseController {
     public PageList<ESCourse> json(@RequestBody ESCourseQuery query) {
         return esCourseService.selectListPage(query);
     }
+
+    /**
+     * 批量保存到es库，批量上线
+     * @param esCourseList
+     * @return
+     */
+    @PostMapping("/online")
+    AjaxResult batchSave(@RequestBody List<ESCourse> esCourseList){
+        try {
+            esCourseService.batchSave(esCourseList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("批量添加失败!"+e.getMessage());
+        }
+    }
+
+    @PostMapping("/offline")
+    AjaxResult batchDel(@RequestBody List<ESCourse> esCourseList){
+        try {
+            esCourseService.batchDel(esCourseList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("批量删除失败!"+e.getMessage());
+        }
+    }
 }

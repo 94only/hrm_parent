@@ -5,6 +5,8 @@ import cn.wangningbo.hrm.query.CourseTypeQuery;
 import cn.wangningbo.hrm.util.PageList;
 import com.baomidou.mybatisplus.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  * 课程目录 服务类
@@ -16,4 +18,6 @@ import com.baomidou.mybatisplus.service.IService;
 public interface ICourseTypeService extends IService<CourseType> {
 
     PageList<CourseType> selectListPage(CourseTypeQuery query);
+
+    List<CourseType> queryTypeTree(Long pid);
 }

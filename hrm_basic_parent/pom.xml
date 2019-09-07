@@ -17,6 +17,9 @@
         <module>hrm_basic_fastdfs_service</module>
         <module>hrm_basic_es_interface</module>
         <module>hrm_basic_es_service</module>
+        <module>hrm_basic_redis_common</module>
+        <module>hrm_basic_redis_client</module>
+        <module>hrm_basic_redis_service</module>
     </modules>
 
 

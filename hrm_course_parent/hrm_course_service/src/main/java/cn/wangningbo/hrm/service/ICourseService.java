@@ -17,4 +17,8 @@ public interface ICourseService extends IService<Course> {
 
     //分页+高级查询+关联查询
     PageList<Course> selectPageList(CourseQuery query);
+
+    void onLine(Long[] ids);
+
+    void offLine(Long[] ids);
 }

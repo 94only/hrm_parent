@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -51,7 +53,8 @@ public class CourseType extends Model<CourseType> {
      * 商品数量
      */
     private Integer totalCount;
-
+    @TableField(exist = false) //用来存放儿子
+    private List<CourseType> children = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -131,6 +134,22 @@ public class CourseType extends Model<CourseType> {
 
     public void setTotalCount(Integer totalCount) {
         this.totalCount = totalCount;
+    }
+
+    public CourseType getParent() {
+        return parent;
+    }
+
+    public void setParent(CourseType parent) {
+        this.parent = parent;
+    }
+
+    public List<CourseType> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<CourseType> children) {
+        this.children = children;
     }
 
     @Override

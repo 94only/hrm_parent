@@ -43,6 +43,16 @@ public class EsCourseClientHystrixFallbackFactory implements FallbackFactory<ESC
             public PageList<ESCourse> json(ESCourseQuery query) {
                 return null;
             }
+
+            @Override
+            public AjaxResult batchSave(List<ESCourse> esCourseList) {
+                return null;
+            }
+
+            @Override
+            public void batchDel(List<ESCourse> esCourseList) {
+
+            }
         };
     }
 }

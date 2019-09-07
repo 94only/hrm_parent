@@ -7,7 +7,9 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -20,4 +22,8 @@ import java.util.List;
 public interface CourseMapper extends BaseMapper<Course> {
 
     List<Course> loadPageList(Page page, @Param("query") CourseQuery query);
+
+    void batchOnline(ArrayList<Map<String,Object>> listMap);
+
+    void batchOffline(List<Long> longs);
 }

@@ -1,6 +1,6 @@
 package
 
-    cn.wangningbo.hrm.web.controller;
+        cn.wangningbo.hrm.web.controller;
 
 import cn.wangningbo.hrm.service.IDepartmentService;
 import cn.wangningbo.hrm.domain.Department;
@@ -18,23 +18,24 @@ import java.util.List;
  * @since 2019-09-02
  */
 @RestController
-@RequestMapping("/department" )
+@RequestMapping("/department")
 public class DepartmentController {
     @Autowired
     public IDepartmentService departmentService;
 
     /**
      * 保存和修改公用的
+     *
      * @param department 传递的实体
      * @return Ajaxresult转换结果
      */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public AjaxResult save(@RequestBody Department department) {
         try {
-            if (department.getId() != null){
-                    departmentService.updateById(department);
-            }else{
-                    departmentService.insert(department);
+            if (department.getId() != null) {
+                departmentService.updateById(department);
+            } else {
+                departmentService.insert(department);
             }
             return AjaxResult.me();
         } catch (Exception e) {
@@ -44,14 +45,15 @@ public class DepartmentController {
     }
 
     /**
-    * 删除对象信息
-    * @param id
-    * @return
-    */
+     * 删除对象信息
+     *
+     * @param id
+     * @return
+     */
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id" ) Long id) {
+    public AjaxResult delete(@PathVariable("id") Long id) {
         try {
-                departmentService.deleteById(id);
+            departmentService.deleteById(id);
             return AjaxResult.me();
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,15 +63,16 @@ public class DepartmentController {
 
     //获取用户
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Department get(@PathVariable("id" ) Long id) {
+    public Department get(@PathVariable("id") Long id) {
         return departmentService.selectById(id);
     }
 
 
     /**
-    * 查看所有的员工信息
-    * @return
-    */
+     * 查看所有的员工信息
+     *
+     * @return
+     */
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<Department> list() {
 
@@ -78,11 +81,11 @@ public class DepartmentController {
 
 
     /**
-    * 分页查询数据
-    *
-    * @param query 查询对象
-    * @return PageList 分页对象
-    */
+     * 分页查询数据
+     *
+     * @param query 查询对象
+     * @return PageList 分页对象
+     */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     public PageList<Department> json(@RequestBody DepartmentQuery query) {
         Page<Department> page = new Page<Department>(query.getPage(), query.getRows());

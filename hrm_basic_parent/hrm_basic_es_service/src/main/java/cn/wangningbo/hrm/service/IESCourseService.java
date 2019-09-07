@@ -30,4 +30,9 @@ public interface IESCourseService {
     //dsl高级查询
     PageList<ESCourse> selectListPage(ESCourseQuery query);
 
+    //批量保存
+    void batchSave(List<ESCourse> ids);
+
+    //批量删除
+    void batchDel(List<ESCourse> esCourseList);
 }
