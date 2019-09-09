@@ -2,96 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ed2291-114e-4f9f-bae9-8be0b57dc62b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/hrm_basic_redis_client.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClientFallbackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/hrm_basic_redis_common.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/hrm_basic_redis_service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/Redis9005Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/config/Swagger2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/util/RedisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/resources/logback-spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/resources/redis.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/hrm_course_client.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/cache/CourseTypeCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode_bak.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-page.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/hrm_page_client.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/hrm_page_common.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_parent.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/hrm_page_service.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/Page9006Application.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/config/Swagger2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/logback-spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm_page_parent/pom.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/ESCourseClient.java" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/ESCourseClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/EsCourseClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/EsCourseClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/target/classes/cn/wangningbo/hrm/client/ESCourseClient.class" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/target/classes/cn/wangningbo/hrm/client/ESCourseClient.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/target/classes/cn/wangningbo/hrm/client/EsCourseClientHystrixFallbackFactory$1.class" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/target/classes/cn/wangningbo/hrm/client/EsCourseClientHystrixFallbackFactory$1.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/IESCourseService.java" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/IESCourseService.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/impl/ESCourseServiceImpl.java" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/impl/ESCourseServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/web/controller/ESCourseController.java" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/web/controller/ESCourseController.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/service/IESCourseService.class" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/service/IESCourseService.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/service/impl/ESCourseServiceImpl.class" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/service/impl/ESCourseServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/web/controller/ESCourseController.class" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/target/classes/cn/wangningbo/hrm/web/controller/ESCourseController.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" afterPath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/hrm_course_interface.iml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/hrm_course_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseClient.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseDetailClient.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseDetailClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseDetailClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseDetailClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseMarketClient.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseMarketClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseMarketClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseMarketClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseResourceClient.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseResourceClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseResourceClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseResourceClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseTypeClient.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseTypeClient.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseTypeClientHystrixFallbackFactory.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseTypeClientHystrixFallbackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/domain/CourseType.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/domain/CourseType.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseClientHystrixFallbackFactory$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseClientHystrixFallbackFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseDetailClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseDetailClientHystrixFallbackFactory$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseDetailClientHystrixFallbackFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseMarketClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseMarketClientHystrixFallbackFactory$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseMarketClientHystrixFallbackFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseResourceClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseResourceClientHystrixFallbackFactory$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseResourceClientHystrixFallbackFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseTypeClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseTypeClientHystrixFallbackFactory$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/client/CourseTypeClientHystrixFallbackFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/domain/CourseType.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/target/classes/cn/wangningbo/hrm/domain/CourseType.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/hrm_course_service.iml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/hrm_course_service.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/Course9002Application.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/Course9002Application.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/mapper/CourseMapper.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/mapper/CourseMapper.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/ICourseService.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/ICourseService.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/ICourseTypeService.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/ICourseTypeService.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseServiceImpl.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/web/controller/CourseController.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/web/controller/CourseController.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/web/controller/CourseTypeController.java" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/web/controller/CourseTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/cn/wangningbo/hrm/mapper/CourseMapper.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/cn/wangningbo/hrm/mapper/CourseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/logback-spring_bak.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/Course9002Application.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/Course9002Application.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/mapper/CourseMapper.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/mapper/CourseMapper.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/mapper/CourseMapper.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/mapper/CourseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/ICourseService.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/ICourseService.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/ICourseTypeService.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/ICourseTypeService.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/impl/CourseServiceImpl.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/impl/CourseServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/web/controller/CourseController.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/web/controller/CourseController.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/web/controller/CourseTypeController.class" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/cn/wangningbo/hrm/web/controller/CourseTypeController.class" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/classes/logback-spring.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/pom.xml" afterPath="$PROJECT_DIR$/hrm_course_parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm" afterPath="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm" />
       <change beforePath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java" afterPath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/cn/wangningbo/hrm/web/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/cn/wangningbo/hrm/web/controller/DepartmentController.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,6 +48,10 @@
     <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/target/" />
     <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/target/" />
     <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,115 +61,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RedisClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClient.java">
+      <file leaf-file-name="SiteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/web/controller/SiteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisClientFallbackFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClientFallbackFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/controller/RedisController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="-749">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course9002Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/Course9002Application.java">
+      <file leaf-file-name="Site.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/cn/wangningbo/hrm/domain/Site.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTypeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseTypeCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/cache/CourseTypeCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentationConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/util/RedisUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/resources/redis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -255,17 +97,17 @@
       <find>getTotal</find>
       <find>total</find>
       <find>CourseTypeMap</find>
-      <find>\</find>
       <find>Page</find>
       <find>CourseTypeClient</find>
       <find>courseTypeId</find>
       <find>EsCourse</find>
+      <find>\</find>
     </findStrings>
     <replaceStrings>
       <replace>wangningbo</replace>
-      <replace>\\</replace>
       <replace>/</replace>
       <replace>ESCourse</replace>
+      <replace>\\</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -279,18 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/ElasticSearch9004Application.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/doc/ESCourese.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/doc/ESCourse.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/doc/EsCourseQuery.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/query/EsCourseQuery.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/impl/EsCourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/IEsCourseService.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/repository/CourseRepository.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service/src/main/java/cn/wangningbo/hrm/controller/EsCourseController.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/web/controller/EsCourseController.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/EsCourseClient.java" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/test/java/cn/wangningbo/hrm/IESCourseServiceTest.java" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/resources/logback-spring.xml" />
@@ -325,11 +155,23 @@
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClient.java" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClientFallbackFactory.java" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/util/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java" />
         <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml" />
         <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/cache/CourseTypeCache.java" />
         <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/Page9006Application.java" />
+        <option value="$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode_bak.java" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-page.properties" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm" />
       </list>
     </option>
   </component>
@@ -363,7 +205,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-81" />
     <option name="y" value="131" />
     <option name="width" value="1346" />
@@ -401,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -414,34 +255,25 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_mybatisplus_gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_client" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_mybatisplus_gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_client" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_mybatisplus_gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_client" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_mybatisplus_gen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -449,8 +281,43 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_client" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -459,29 +326,29 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -489,8 +356,48 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -499,265 +406,26 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_page_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hrm" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_basic_redis_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_support_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_zuul_9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../06_web4_SpringCloud/2019-09-06-HRM(人力资源管理)-DAY06/code/hrm_parent" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../06_web4_SpringCloud/2019-09-08-HRM(人力资源管理)-DAY07/hrm_parent" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -783,18 +451,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_mybatisplus_gen\src\main\resources" />
+      <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_page_parent\hrm_page_service\src\main\resources" />
       <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_basic_parent\hrm_basic_redis_service\src\main\resources" />
       <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_course_parent\hrm_course_client\src\main\java\cn\wangningbo\hrm" />
       <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_basic_parent\hrm_basic_es_service\src\main\resources" />
-      <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_basic_parent\hrm_basic_es_interface\src\main\java\cn\wangningbo\hrm" />
-      <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_basic_parent\hrm_basic_es_service\src\main\java\cn\wangningbo\hrm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="cn.wangningbo.hrm.config" />
       <recent name="cn.wangningbo.hrm.cache" />
       <recent name="cn.wangningbo.hrm.util" />
-      <recent name="cn.wangningbo.hrm.config" />
       <recent name="cn.wangningbo.hrm.web.controller" />
-      <recent name="cn.wangningbo.hrm.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java20190329\workspace\java6webSpringCloud\hrm_parent\hrm_sysmanage_parent\hrm_sysmanage_service\src\main\resources" />
@@ -818,7 +486,7 @@
     </option>
     <option name="contentProportion" value="0.23603505" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Redis9005Application">
+  <component name="RunManager" selected="Application.GenteratorCode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1009,6 +677,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wangningbo.hrm.ElasticSearch9004Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="hrm_basic_es_service" />
       <envs />
@@ -1034,8 +703,22 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wangningbo.hrm.FastDFS9003Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="hrm_basic_fastdfs_service" />
+      <envs />
+    </configuration>
+    <configuration name="Page9006Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.wangningbo.hrm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wangningbo.hrm.Page9006Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="hrm_page_service" />
       <envs />
     </configuration>
     <configuration name="Redis9005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -1046,6 +729,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wangningbo.hrm.Redis9005Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="hrm_basic_redis_service" />
       <envs />
@@ -1109,7 +793,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="13">
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaServer7001Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Zuul9527Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SysManage9001Application" />
@@ -1117,20 +801,21 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.Course9002Application" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.FastDFS9003Application" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.ElasticSearch9004Application" />
-      <item index="7" class="java.lang.String" itemvalue="Application.GenteratorCode" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.CourseTypeServiceImplTest.selectListPage" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectPageList" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.IESCourseServiceTest.testInit" />
-      <item index="11" class="java.lang.String" itemvalue="Application.DateTest" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.Redis9005Application" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.Redis9005Application" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.Page9006Application" />
+      <item index="9" class="java.lang.String" itemvalue="Application.GenteratorCode" />
+      <item index="10" class="java.lang.String" itemvalue="Application.DateTest" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.CourseTypeServiceImplTest.selectListPage" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectPageList" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.IESCourseServiceTest.testInit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IESCourseServiceTest.testInit" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectPageList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseTypeServiceImplTest.selectListPage" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GenteratorCode" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GenteratorCode" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IESCourseServiceTest.testInit" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseServiceImplTest.selectPageList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseTypeServiceImplTest.selectListPage" />
       </list>
     </recent_temporary>
   </component>
@@ -1173,6 +858,9 @@
       <workItem from="1567739348036" duration="10473000" />
       <workItem from="1567816432026" duration="7537000" />
       <workItem from="1567824987057" duration="15686000" />
+      <workItem from="1567935442237" duration="25000" />
+      <workItem from="1567940079035" duration="3842000" />
+      <workItem from="1567978656342" duration="1924000" />
     </task>
     <servers />
   </component>
@@ -1209,11 +897,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149784000" />
+    <option name="totallyTimeSpent" value="155575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25313568" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
@@ -1233,12 +920,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23717217" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53872436" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33476394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34924892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1263,162 +950,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/doc/ESCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/ElasticSearch9004Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/ICourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/mapper/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/resources/cn/wangningbo/hrm/mapper/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding>
-            <marker date="1567824614579" expanded="true" signature="1139:1292" ph="SELECT c.*, t_course" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/ESCourseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/IESCourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/service/impl/ESCourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="84" selection-end-column="5" />
-          <folding>
-            <element signature="e#2658#2659#0" expanded="false" />
-            <element signature="e#2712#2713#0" expanded="false" />
-            <element signature="e#2794#2795#0" expanded="false" />
-            <element signature="e#2850#2851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/repository/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_interface/src/main/java/cn/wangningbo/hrm/client/EsCourseClientHystrixFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseDetailClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/web/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_es_service/src/main/java/cn/wangningbo/hrm/web/controller/ESCourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/cn/wangningbo/hrm/client/CourseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseClientHystrixFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseTypeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_client/src/main/java/cn/wangningbo/hrm/client/CourseResourceClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
           <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,15 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="138" column="35" lean-forward="false" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
-          <folding>
-            <element signature="e#2769#2770#0" expanded="false" />
-            <element signature="e#2817#2818#0" expanded="false" />
-            <element signature="e#2853#2854#0" expanded="false" />
-            <element signature="e#2898#2899#0" expanded="false" />
-            <element signature="e#2929#2930#0" expanded="false" />
-            <element signature="e#2987#2988#0" expanded="false" />
-            <element signature="e#3027#3028#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1522,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1554,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,11 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1582,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="56" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1590,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,27 +1101,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client.java" />
     <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/src/main/java/cn/wangningbo/hrm/client/RedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="299">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1626,11 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1638,31 +1123,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/util/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="874">
           <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="1656">
           <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding />
         </state>
@@ -1678,31 +1151,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/cache/CourseTypeCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="115">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/src/main/java/cn/wangningbo/hrm/service/impl/CourseTypeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="966">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/src/main/java/cn/wangningbo/hrm/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/src/main/java/cn/wangningbo/hrm/config/DocumentationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="86" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/cn/wangningbo/hrm/SysManage9001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/cn/wangningbo/hrm/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode_bak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/mybatisplus-page.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/resources/templates/client.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_gen/src/main/java/GenteratorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2162">
+          <caret line="102" column="56" lean-forward="false" selection-start-line="102" selection-start-column="56" selection-end-line="102" selection-end-column="56" />
+          <folding>
+            <element signature="e#2353#2653#0" expanded="false" />
+            <element signature="e#2488#2504#0" expanded="false" />
+            <element signature="e#2652#2653#0" expanded="false" />
+            <element signature="e#2707#2722#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/src/main/java/cn/wangningbo/hrm/client/PageConfigClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/Page9006Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_service/src/main/java/cn/wangningbo/hrm/web/controller/SiteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/src/main/java/cn/wangningbo/hrm/domain/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

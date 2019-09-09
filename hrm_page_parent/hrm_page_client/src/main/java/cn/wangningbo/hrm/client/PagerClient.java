@@ -1,7 +1,7 @@
 package cn.wangningbo.hrm.client;
 
-import ${package.Entity}.${entity};
-import cn.wangningbo.hrm.query.${entity}Query;
+import cn.wangningbo.hrm.domain.Pager;
+import cn.wangningbo.hrm.query.PagerQuery;
 import cn.wangningbo.hrm.util.AjaxResult;
 import cn.wangningbo.hrm.util.PageList;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -11,20 +11,20 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * @author ${author}
- * @since ${date}
+ * @author wangningbo
+ * @since 2019-09-09
  */
 @FeignClient(value = "ZUUL-GATEWAY", configuration = FeignClientsConfiguration.class,
-        fallbackFactory = ${entity}ClientHystrixFallbackFactory.class)
-@RequestMapping("/${table.entityPath}" )
-public interface ${entity}Client {
+        fallbackFactory = PagerClientHystrixFallbackFactory.class)
+@RequestMapping("/pager" )
+public interface PagerClient {
     /**
      * 保存和修改公用的
-     * @param ${table.entityPath} 传递的实体
+     * @param pager 传递的实体
      * @return Ajaxresult转换结果
      */
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    AjaxResult save(${entity} ${table.entityPath});
+    AjaxResult save(Pager pager);
 
     /**
      * 删除对象信息
@@ -36,7 +36,7 @@ public interface ${entity}Client {
 
     //获取用户
     @RequestMapping("/{id}" )
-        ${entity} get(@RequestParam(value = "id", required = true) Long id);
+        Pager get(@RequestParam(value = "id", required = true) Long id);
 
 
     /**
@@ -44,7 +44,7 @@ public interface ${entity}Client {
      * @return
      */
     @RequestMapping("/list" )
-    public List<${entity}> list();
+    public List<Pager> list();
 
     /**
      * 分页查询数据
@@ -53,5 +53,5 @@ public interface ${entity}Client {
      * @return PageList 分页对象
      */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
-    PageList<${entity}> json(@RequestBody ${entity}Query query);
+    PageList<Pager> json(@RequestBody PagerQuery query);
 }
