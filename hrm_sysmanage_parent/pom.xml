@@ -11,6 +11,7 @@
 
     <artifactId>hrm_sysmanage_parent</artifactId>
     <packaging>pom</packaging>
+	
     <modules>
         <module>hrm_sysmanage_interface</module>
         <module>hrm_sysmanage_service</module>
