@@ -1,11 +1,14 @@
 package cn.wangningbo.hrm.service.impl;
 
 import cn.wangningbo.hrm.cache.CourseTypeCache;
+import cn.wangningbo.hrm.client.PageConfigClient;
+import cn.wangningbo.hrm.client.RedisClient;
 import cn.wangningbo.hrm.domain.CourseType;
 import cn.wangningbo.hrm.mapper.CourseTypeMapper;
 import cn.wangningbo.hrm.query.CourseTypeQuery;
 import cn.wangningbo.hrm.service.ICourseTypeService;
 import cn.wangningbo.hrm.util.PageList;
+import com.alibaba.fastjson.JSONArray;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
@@ -13,10 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -34,6 +34,12 @@ public class CourseTypeServiceImpl extends ServiceImpl<CourseTypeMapper, CourseT
 
     @Autowired
     private CourseTypeCache courseTypeCache;
+
+    @Autowired
+    private RedisClient redisClient;
+
+    @Autowired
+    private PageConfigClient pageConfigClient;
 
     @Override
     public PageList<CourseType> selectListPage(CourseTypeQuery query) {
@@ -140,4 +146,62 @@ public class CourseTypeServiceImpl extends ServiceImpl<CourseTypeMapper, CourseT
         courseTypeCache.setCourseTypes(courseTypes);
         return true;
     }
+
+    @Override
+    public void InitCourseSiteIndex() {
+        //1 准备模板,并且上传fastdfs
+        //2存放数据到redis
+        List<CourseType> courseTypes = queryTypeTree(0L);
+        String dataKey = "courseTypes";
+        redisClient.set(dataKey, JSONArray.toJSONString(courseTypes));
+        //3调用静态化接口产生静态页面,并且放入fastdfs
+        String pageName = "CourseIndex";
+        //本来应该通过PageName获取page后设置pageconfig传递,由于数据在查询端,还不如直接传入pageName到那边查询.
+        Map<String,String> map = new HashMap<>();
+        map.put("dataKey",dataKey);
+        map.put("pageName",pageName);
+        pageConfigClient.staticPage(map);
+        //4往消息队列放一个消息,让pageAgent来下载静态页面
+    }
+
+    @Override
+    public List<Map<String, Object>> getCrumbs(Long courseTypeId) {
+        List<Map<String,Object>> result = new ArrayList<>();
+        //1 获取path 1.2.3
+        CourseType courseType = courseTypeMapper.selectById(courseTypeId);
+        String path = courseType.getPath();
+
+        //2 截取path中各个节点自己  1 2 3
+        String[] paths = path.split("\\.");
+
+        //3 获取自己节点兄弟封装Map,放入List中进行返回
+        for (String ownerIdStr : paths) {
+            Map<String,Object> map = new HashMap<>();
+
+            Long ownerId = Long.valueOf(ownerIdStr);
+
+            System.out.println(ownerId);
+            //获取每个自己
+            CourseType owner =  courseTypeMapper.selectById(ownerId);
+            map.put("owner",owner);
+            //查询兄弟
+            //获取父亲所有儿子
+            List<CourseType> allChildren = courseTypeMapper
+                    .selectList(new EntityWrapper<CourseType>().eq("pid",owner.getPid()));
+
+            //干掉自己-边遍历边操作(正删改),要用迭代器
+            Iterator<CourseType> iterator = allChildren.iterator();
+            while (iterator.hasNext()){
+                CourseType currentType = iterator.next();
+                if (currentType.getId().longValue()==owner.getId().longValue()){
+                    iterator.remove();
+                    continue; //跳出当前循环
+                }
+            }
+            map.put("otherCourseTypes",allChildren);
+            result.add(map);
+        }
+        return result;
+    }
+
 }

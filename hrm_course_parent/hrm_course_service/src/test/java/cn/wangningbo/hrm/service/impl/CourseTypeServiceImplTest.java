@@ -28,4 +28,14 @@ public class CourseTypeServiceImplTest {
             System.out.println(courseType);
         }
     }
+    
+    @Test
+    public void testInit() throws Exception {
+        courseTypeService.InitCourseSiteIndex();
+    }
+
+    @Test
+    public void testQueryTree() throws Exception {
+        courseTypeService.queryTypeTree(0L);
+    }
 }

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/hrm_basic_fastdfs_interface.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/hrm_basic_fastdfs_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service/hrm_basic_fastdfs_service.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service/hrm_basic_fastdfs_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_parent.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rabbitmq/hrm_basic_rabbitmq.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_rabbitmq/hrm_basic_rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/hrm_basic_redis_client.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_client/hrm_basic_redis_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/hrm_basic_redis_common.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_common/hrm_basic_redis_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/hrm_basic_redis_service.iml" filepath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_redis_service/hrm_basic_redis_service.iml" />
@@ -18,6 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service/hrm_course_service.iml" filepath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/hrm_course_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_support_parent/hrm_eureka_7001/hrm_eureka_7001.iml" filepath="$PROJECT_DIR$/hrm_support_parent/hrm_eureka_7001/hrm_eureka_7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_mybatisplus_gen/hrm_mybatisplus_gen.iml" filepath="$PROJECT_DIR$/hrm_mybatisplus_gen/hrm_mybatisplus_gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_client/hrm_page_agent_client.iml" filepath="$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_client/hrm_page_agent_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_common/hrm_page_agent_common.iml" filepath="$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_common/hrm_page_agent_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_parent.iml" filepath="$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_service/hrm_page_agent_service.iml" filepath="$PROJECT_DIR$/hrm_page_agent_parent/hrm_page_agent_service/hrm_page_agent_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_client/hrm_page_client.iml" filepath="$PROJECT_DIR$/hrm_page_parent/hrm_page_client/hrm_page_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_common/hrm_page_common.iml" filepath="$PROJECT_DIR$/hrm_page_parent/hrm_page_common/hrm_page_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_page_parent/hrm_page_parent.iml" filepath="$PROJECT_DIR$/hrm_page_parent/hrm_page_parent.iml" />
@@ -27,6 +32,10 @@
       <module fileurl="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/hrm_sysmanage_interface.iml" filepath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/hrm_sysmanage_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_parent.iml" filepath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/hrm_sysmanage_service.iml" filepath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/hrm_sysmanage_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_user_parent/hrm_user_client/hrm_user_client.iml" filepath="$PROJECT_DIR$/hrm_user_parent/hrm_user_client/hrm_user_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_user_parent/hrm_user_common/hrm_user_common.iml" filepath="$PROJECT_DIR$/hrm_user_parent/hrm_user_common/hrm_user_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_user_parent/hrm_user_parent.iml" filepath="$PROJECT_DIR$/hrm_user_parent/hrm_user_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm_user_parent/hrm_user_service/hrm_user_service.iml" filepath="$PROJECT_DIR$/hrm_user_parent/hrm_user_service/hrm_user_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/hrm_zuul_9527.iml" filepath="$PROJECT_DIR$/hrm_support_parent/hrm_zuul_9527/hrm_zuul_9527.iml" />
     </modules>
   </component>

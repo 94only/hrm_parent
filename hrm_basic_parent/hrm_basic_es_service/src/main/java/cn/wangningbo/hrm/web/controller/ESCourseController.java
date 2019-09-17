@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/esCourse")
@@ -109,5 +110,10 @@ public class ESCourseController {
             e.printStackTrace();
             return AjaxResult.me().setSuccess(false).setMessage("批量删除失败!"+e.getMessage());
         }
+    }
+
+    @PostMapping("/query")
+    PageList<Map<String, Object>> query(@RequestBody Map<String, Object> params) {
+        return esCourseService.query(params);
     }
 }

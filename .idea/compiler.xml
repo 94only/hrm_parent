@@ -10,6 +10,7 @@
         <module name="hrm_basic_es_service" />
         <module name="hrm_basic_fastdfs_interface" />
         <module name="hrm_basic_fastdfs_service" />
+        <module name="hrm_basic_rabbitmq" />
         <module name="hrm_basic_redis_client" />
         <module name="hrm_basic_redis_common" />
         <module name="hrm_basic_redis_service" />
@@ -20,11 +21,17 @@
         <module name="hrm_course_service" />
         <module name="hrm_eureka_7001" />
         <module name="hrm_mybatisplus_gen" />
+        <module name="hrm_page_agent_client" />
+        <module name="hrm_page_agent_common" />
+        <module name="hrm_page_agent_service" />
         <module name="hrm_page_client" />
         <module name="hrm_page_common" />
         <module name="hrm_page_service" />
         <module name="hrm_sysmanage_interface" />
         <module name="hrm_sysmanage_service" />
+        <module name="hrm_user_client" />
+        <module name="hrm_user_common" />
+        <module name="hrm_user_service" />
         <module name="hrm_zuul_9527" />
       </profile>
     </annotationProcessing>
@@ -34,6 +41,7 @@
       <module name="hrm_basic_fastdfs_interface" target="1.8" />
       <module name="hrm_basic_fastdfs_service" target="1.8" />
       <module name="hrm_basic_parent" target="1.8" />
+      <module name="hrm_basic_rabbitmq" target="1.8" />
       <module name="hrm_basic_redis_client" target="1.8" />
       <module name="hrm_basic_redis_common" target="1.8" />
       <module name="hrm_basic_redis_service" target="1.8" />
@@ -45,6 +53,10 @@
       <module name="hrm_course_service" target="1.8" />
       <module name="hrm_eureka_7001" target="1.8" />
       <module name="hrm_mybatisplus_gen" target="1.8" />
+      <module name="hrm_page_agent_client" target="1.8" />
+      <module name="hrm_page_agent_common" target="1.8" />
+      <module name="hrm_page_agent_parent" target="1.8" />
+      <module name="hrm_page_agent_service" target="1.8" />
       <module name="hrm_page_client" target="1.8" />
       <module name="hrm_page_common" target="1.8" />
       <module name="hrm_page_parent" target="1.8" />
@@ -54,6 +66,10 @@
       <module name="hrm_sysmanage_interface" target="1.8" />
       <module name="hrm_sysmanage_parent" target="1.8" />
       <module name="hrm_sysmanage_service" target="1.8" />
+      <module name="hrm_user_client" target="1.8" />
+      <module name="hrm_user_common" target="1.8" />
+      <module name="hrm_user_parent" target="1.8" />
+      <module name="hrm_user_service" target="1.8" />
       <module name="hrm_zuul_9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -32,9 +32,10 @@ public enum RedisUtils {
         }
         String host = properties.getProperty("redis.host");
         String port = properties.getProperty("redis.port");
-        String password = properties.getProperty("redis.password");
+//        String password = properties.getProperty("redis.password");
         String timeout = properties.getProperty("redis.timeout");
-        jedisPool = new JedisPool(config, host, Integer.valueOf(port), Integer.valueOf(timeout), password);
+//        jedisPool = new JedisPool(config, host, Integer.valueOf(port), Integer.valueOf(timeout), password);
+        jedisPool = new JedisPool(config, host, Integer.valueOf(port), Integer.valueOf(timeout));
     }
 
     //获取连接

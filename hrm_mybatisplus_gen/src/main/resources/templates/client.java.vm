@@ -14,7 +14,7 @@ import java.util.List;
  * @author ${author}
  * @since ${date}
  */
-@FeignClient(value = "ZUUL-GATEWAY", configuration = FeignClientsConfiguration.class,
+@FeignClient(value = "HRM-USER", configuration = FeignClientsConfiguration.class,
         fallbackFactory = ${entity}ClientHystrixFallbackFactory.class)
 @RequestMapping("/${table.entityPath}" )
 public interface ${entity}Client {

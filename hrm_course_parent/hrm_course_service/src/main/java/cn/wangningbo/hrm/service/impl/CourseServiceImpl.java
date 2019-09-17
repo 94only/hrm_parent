@@ -155,4 +155,14 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
             esCourseClient.save(course2EsCourse(entity));
         return true;
     }
+
+    /**
+     * 高级搜索
+     * @param query
+     * @return
+     */
+    @Override
+    public PageList<Map<String, Object>> queryCourses(Map<String, Object> query) {
+        return esCourseClient.query(query);
+    }
 }

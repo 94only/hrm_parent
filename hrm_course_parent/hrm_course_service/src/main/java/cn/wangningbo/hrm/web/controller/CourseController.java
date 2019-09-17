@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author wangningbo
@@ -138,5 +139,12 @@ public class CourseController {
             return AjaxResult.me().setSuccess(false)
                     .setMessage("下线失败!"+e.getMessage());
         }
+    }
+    /**
+     * 高级搜索
+     */
+    @PostMapping("/queryCourses")
+    public PageList<Map<String,Object>> queryCourses(@RequestBody Map<String,Object> query){
+        return courseService.queryCourses(query);
     }
 }

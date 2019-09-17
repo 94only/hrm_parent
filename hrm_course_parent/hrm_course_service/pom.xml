@@ -72,5 +72,10 @@
             <artifactId>hrm_basic_redis_client</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cn.wangningbo.hrm</groupId>
+            <artifactId>hrm_page_client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

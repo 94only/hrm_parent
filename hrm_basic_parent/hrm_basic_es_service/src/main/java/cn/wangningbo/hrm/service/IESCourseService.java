@@ -6,6 +6,7 @@ import cn.wangningbo.hrm.query.ESCourseQuery;
 import cn.wangningbo.hrm.util.PageList;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author wangningbo
@@ -35,4 +36,6 @@ public interface IESCourseService {
 
     //批量删除
     void batchDel(List<ESCourse> esCourseList);
+
+    PageList<Map<String,Object>> query(Map<String, Object> params);
 }

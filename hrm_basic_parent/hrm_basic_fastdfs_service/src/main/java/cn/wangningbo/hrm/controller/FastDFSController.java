@@ -6,9 +6,9 @@ import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import sun.nio.ch.IOUtil;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -27,23 +27,37 @@ public class FastDFSController {
      * @param file
      * @return
      */
-    @PostMapping("/upload")
-    public String upload(@RequestParam("file") MultipartFile file) {
+    @PostMapping(value = "/upload", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE}
+            , consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public String upload(@RequestPart("file") MultipartFile file) {
         try {
-            //拿到上传的文件名
-            String fileName = file.getOriginalFilename();
-            //获取文件的后缀名
+            String fileName = file.getOriginalFilename(); // 1.png
             String extName = fileName.substring(fileName.lastIndexOf(".") + 1);
             System.out.println(extName);
-            //上传文件 文件的字节数组和后缀名
             return FastDfsApiOpr.upload(file.getBytes(), extName);
         } catch (Exception e) {
             e.printStackTrace();
-            //记录错误到日志文件
-            logger.error("upload_error..." + e.getMessage());
+            logger.error("error...." + e.getMessage());
         }
         return null;
     }
+//    @PostMapping("/upload")
+//    public String upload(@RequestParam("file") MultipartFile file) {
+//        try {
+//            //拿到上传的文件名
+//            String fileName = file.getOriginalFilename();
+//            //获取文件的后缀名
+//            String extName = fileName.substring(fileName.lastIndexOf(".") + 1);
+//            System.out.println(extName);
+//            //上传文件 文件的字节数组和后缀名
+//            return FastDfsApiOpr.upload(file.getBytes(), extName);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            //记录错误到日志文件
+//            logger.error("upload_error..." + e.getMessage());
+//        }
+//        return null;
+//    }
 
     /**
      * 删除
@@ -80,7 +94,7 @@ public class FastDFSController {
      * @param path
      * @param response
      */
-    @GetMapping("/download")
+    @GetMapping(value = "/download", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public void download(@RequestParam("path") String path, HttpServletResponse response) {
         //获取相对路径    // 去掉路径的第1个字符 //拿到的就是group1/xxx //
         String pathTemp = path.substring(1);
@@ -96,7 +110,7 @@ public class FastDFSController {
         InputStream is = null;
         try {
             byte[] datas = FastDfsApiOpr.download(groupName, remotePath);
-            os = response.getOutputStream();//直接以流的方式返回
+            os = response.getOutputStream(); //直接给以流方式进行返回
             is = new ByteInputStream(datas, datas.length);
             IOUtils.copy(is, os);
         } catch (Exception e) {

@@ -21,6 +21,8 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
         resources.add(swaggerResource("分布式全文检索", "/services/es/v2/api-docs", "2.0"));
         resources.add(swaggerResource("redis中央缓存", "/services/redis/v2/api-docs", "2.0"));
         resources.add(swaggerResource("页面管理系统", "/services/page/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("页面代理系统", "/services/pageAgent/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("用户中心系统", "/services/user/v2/api-docs", "2.0"));
         return resources;
     }
 

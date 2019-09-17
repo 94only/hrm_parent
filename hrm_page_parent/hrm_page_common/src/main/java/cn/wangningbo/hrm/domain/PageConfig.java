@@ -24,6 +24,17 @@ public class PageConfig extends Model<PageConfig> {
     private Long id;
     @TableField("template_url")
     private String templateUrl;
+    @TableField("templateName")
+    private String templateName;
+
+    public String getTemplateName() {
+        return templateName;
+    }
+
+    public void setTemplateName(String templateName) {
+        this.templateName = templateName;
+    }
+
     /**
      * redis中数据所对应key
      */

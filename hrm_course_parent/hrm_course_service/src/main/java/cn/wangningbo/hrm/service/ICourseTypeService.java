@@ -6,6 +6,7 @@ import cn.wangningbo.hrm.util.PageList;
 import com.baomidou.mybatisplus.service.IService;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -20,4 +21,11 @@ public interface ICourseTypeService extends IService<CourseType> {
     PageList<CourseType> selectListPage(CourseTypeQuery query);
 
     List<CourseType> queryTypeTree(Long pid);
+
+    /**
+     *初始化课程站点主页
+     */
+    void InitCourseSiteIndex();
+
+    List<Map<String,Object>> getCrumbs(Long courseTypeId);
 }

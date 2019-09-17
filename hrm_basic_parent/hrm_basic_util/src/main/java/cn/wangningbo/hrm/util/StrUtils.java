@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author yaohuaipeng
- * @date 2018/10/26-16:16
+ * @author wangningbo
+ * @date 2019/09/16-11:07
  */
 public class StrUtils {
     /**
@@ -15,7 +15,7 @@ public class StrUtils {
      * @param str
      * @return
      */
-    public static String[] splitStr2StrArr(String str,String split) {
+    public static String[] splitStr2StrArr(String str, String split) {
         if (str != null && !str.equals("")) {
             return str.split(split);
         }
@@ -30,7 +30,7 @@ public class StrUtils {
      * @return
      */
     public static List<Long> splitStr2LongArr(String str) {
-        String[] strings = splitStr2StrArr(str,",");
+        String[] strings = splitStr2StrArr(str, ",");
         if (strings == null) return null;
 
         List<Long> result = new ArrayList<>();
@@ -40,14 +40,15 @@ public class StrUtils {
 
         return result;
     }
+
     /**
      * 把逗号分隔字符串转换List的Long
      *
      * @param str
      * @return
      */
-    public static List<Long> splitStr2LongArr(String str,String split) {
-        String[] strings = splitStr2StrArr(str,split);
+    public static List<Long> splitStr2LongArr(String str, String split) {
+        String[] strings = splitStr2StrArr(str, split);
         if (strings == null) return null;
 
         List<Long> result = new ArrayList<>();
@@ -67,7 +68,6 @@ public class StrUtils {
             sb.append(str.charAt(number));
         }
         return sb.toString();
-
     }
 
     public static String getComplexRandomString(int length) {
@@ -81,7 +81,7 @@ public class StrUtils {
         return sb.toString();
     }
 
-    public static String convertPropertiesToHtml(String properties){
+    public static String convertPropertiesToHtml(String properties) {
         //1:容量:6:32GB_4:样式:12:塑料壳
         StringBuilder sBuilder = new StringBuilder();
         String[] propArr = properties.split("_");

@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.FeignClientsConfiguration;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author wangningbo
@@ -16,10 +17,11 @@ import java.util.List;
  */
 @FeignClient(value = "ZUUL-GATEWAY", configuration = FeignClientsConfiguration.class,
         fallbackFactory = PageConfigClientHystrixFallbackFactory.class)
-@RequestMapping("/pageConfig" )
+@RequestMapping("/pageConfig")
 public interface PageConfigClient {
     /**
      * 保存和修改公用的
+     *
      * @param pageConfig 传递的实体
      * @return Ajaxresult转换结果
      */
@@ -28,22 +30,24 @@ public interface PageConfigClient {
 
     /**
      * 删除对象信息
+     *
      * @param id
      * @return
      */
     @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
-    AjaxResult delete(@PathVariable("id" ) Integer id);
+    AjaxResult delete(@PathVariable("id") Integer id);
 
     //获取用户
-    @RequestMapping("/{id}" )
-        PageConfig get(@RequestParam(value = "id", required = true) Long id);
+    @RequestMapping("/{id}")
+    PageConfig get(@RequestParam(value = "id", required = true) Long id);
 
 
     /**
      * 查看所有
+     *
      * @return
      */
-    @RequestMapping("/list" )
+    @RequestMapping("/list")
     public List<PageConfig> list();
 
     /**
@@ -54,4 +58,12 @@ public interface PageConfigClient {
      */
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     PageList<PageConfig> json(@RequestBody PageConfigQuery query);
+
+    /**
+     * 静态化页面
+     * @param map
+     * @return
+     */
+    @PostMapping("/staticPage")
+    AjaxResult staticPage(Map<String, String> map);
 }

@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.service.IService;
 
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author wangningbo
@@ -13,4 +13,5 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface IPageConfigService extends IService<PageConfig> {
 
+    void staticPage(String dataKey, String pageName);
 }

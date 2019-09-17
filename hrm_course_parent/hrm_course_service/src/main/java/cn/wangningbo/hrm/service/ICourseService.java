@@ -5,6 +5,8 @@ import cn.wangningbo.hrm.query.CourseQuery;
 import cn.wangningbo.hrm.util.PageList;
 import com.baomidou.mybatisplus.service.IService;
 
+import java.util.Map;
+
 /**
  * <p>
  * 服务类
@@ -21,4 +23,6 @@ public interface ICourseService extends IService<Course> {
     void onLine(Long[] ids);
 
     void offLine(Long[] ids);
+
+    PageList<Map<String,Object>> queryCourses(Map<String, Object> query);
 }

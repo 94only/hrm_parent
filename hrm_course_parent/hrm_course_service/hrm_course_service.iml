@@ -235,5 +235,7 @@
     <orderEntry type="module" module-name="hrm_basic_redis_client" />
     <orderEntry type="module" module-name="hrm_basic_redis_common" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.58" level="project" />
+    <orderEntry type="module" module-name="hrm_page_client" />
+    <orderEntry type="module" module-name="hrm_page_common" />
   </component>
 </module>

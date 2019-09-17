@@ -8,6 +8,7 @@ import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author wangningbo
@@ -52,6 +53,11 @@ public class EsCourseClientHystrixFallbackFactory implements FallbackFactory<ESC
             @Override
             public void batchDel(List<ESCourse> esCourseList) {
 
+            }
+
+            @Override
+            public PageList<Map<String, Object>> query(Map<String, Object> params) {
+                return null;
             }
         };
     }
